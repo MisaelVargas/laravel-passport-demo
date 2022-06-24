@@ -5,6 +5,8 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use App\Models\CEO;
 use Illuminate\Http\Request;
+use App\Http\Resources\CEOResource;
+use Validator;
 
 class CEOController extends Controller
 {
