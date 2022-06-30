@@ -31,9 +31,9 @@ Route::get('/redirect', function (Request $request) {
 
     $query = http_build_query([
         'client_id' => '3',
-        'redirect_uri' => 'flutter://',
+        'redirect_uri' => 'figma://',
         'response_type' => 'code',
-        'scope' => '*',
+        'scope' => '',
         'state' => $state,
     ]);
 
